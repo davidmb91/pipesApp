@@ -15,6 +15,12 @@
     </p-card>
   </div>
 
+  <div class="col-12 md:col-4">
+    <p-card header="titlecase">
+      {{ fullName | titlecase }}
+    </p-card>
+  </div>
+
   <div class="col-12 md:col-6">
     <p-card header="titlecase">
       <ol>
@@ -51,6 +57,9 @@
       <ol>
         <li> {{  customDate | date:'long':'GMT-6'  }} </li>
         <li> {{  customDate | date:'long':'GMT-4'  }} </li>
+        <li> {{  customDate | date:'long':'':'es-ES'  }} </li>
+        <li> {{  customDate | date:'long':'':'en-US'  }} </li>
+        <li> {{  customDate | date:'long':'':'fr-FR'  }} </li>
       </ol>
     </p-card>
   </div>
