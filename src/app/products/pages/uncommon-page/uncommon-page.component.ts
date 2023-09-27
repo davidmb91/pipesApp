@@ -14,7 +14,7 @@ export class UncommonPageComponent {
     'female': 'invitarla'
   };
   // i18n Plural
-  public clients: string[] = ['John', 'Jane', 'Michael', 'Emily', 'David', 'Sarah', 'Christopher', 'Jennifer', 'Matthew', 'Jessica'];
+  public clients: string[] = ['John', 'Jane', 'Michael', 'Emily', 'David', 'Sarah', 'Jessica'];
   public clientsMap = {
     '=0': 'no tenemos ningun cliente esperando.',
     '=1': 'tenemos un cliente esperando.',
